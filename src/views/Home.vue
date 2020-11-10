@@ -29,25 +29,6 @@ export default {
 };
 </script>
 
-<style scoped>
-.articles {
-  margin-left: 20px;
-}
+<style>
 
-.article a:link {
-  color: red;
-}
-
-.article a:visited {
-  color: green;
-}
-
-.article a:hover {
-  color: hotpink;
-}
-
-.article a:active {
-  color: blue;
-}
-</stlye>
-  
+</style>
