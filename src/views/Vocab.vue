@@ -39,7 +39,7 @@ export default {
   methods: {
     showHide(reviewPair) {
       reviewPair.showdef = !reviewPair.showdef;
-      this.$refs.btnToggle.innerText = this.showdef?'Hide Definition':'Show Definition';
+      reviewPair.$refs.btnToggle.innerText = this.showdef?'Hide Definition':'Show Definition';
     },
     addTicket() {
       this.$root.$data.addVocab(this.term, this.def);
