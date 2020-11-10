@@ -7,7 +7,7 @@
       <div class="term">
         <p>{{reviewPair.term}}</p>
         <p v-if="reviewPair.showdef"><i>-- {{reviewPair.def}}</i></p>
-        <button v-on:click="showHide(reviewPair)" ref="btnToggle">Show</button>
+        <button v-on:click="showHide(reviewPair)" ref="btnToggle">Show Definition</button>
       </div>
     </div>
   </div>
@@ -39,7 +39,7 @@ export default {
   methods: {
     showHide(reviewPair) {
       reviewPair.showdef = !reviewPair.showdef;
-      reviewPair.$refs.btnToggle.innerText = this.showdef?'Hide Definition':'Show Definition';
+      reviewPair.$refs.btnToggle.innerText = reviewPair.showdef?'Hide Definition':'Show Definition';
     },
     addTicket() {
       this.$root.$data.addVocab(this.term, this.def);
