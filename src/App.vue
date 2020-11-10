@@ -35,7 +35,7 @@ body {
 
 #nav {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: space-between;
 }
 
@@ -45,7 +45,7 @@ body {
 }
 
 #nav a.router-link-exact-active {
-  color: #1499B1;
+  color: #46D4FA;
 }
 
 .content {
