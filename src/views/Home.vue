@@ -29,27 +29,23 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
 .articles {
   margin-left: 20px;
 }
 
-/* unvisited link */
 .article a:link {
   color: red;
 }
 
-/* visited link */
 .article a:visited {
   color: green;
 }
 
-/* mouse over link */
 .article a:hover {
   color: hotpink;
 }
 
-/* selected link */
 .article a:active {
   color: blue;
 }
