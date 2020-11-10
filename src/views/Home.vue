@@ -32,6 +32,7 @@ export default {
 <style>
 .articles {
   margin-left: 20px;
+  margin-right: 80px;
 }
 
 a:link {
@@ -41,7 +42,7 @@ a:link {
 }
 
 a:visited {
-  color: pink;
+  color: #21B1F5;
   background-color: transparent;
   text-decoration: none;
 }
