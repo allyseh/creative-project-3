@@ -28,3 +28,29 @@ export default {
   },
 };
 </script>
+
+<style>
+.articles {
+  margin-right: 20px;
+}
+
+/* unvisited link */
+.article a:link {
+  color: red;
+}
+
+/* visited link */
+.article a:visited {
+  color: green;
+}
+
+/* mouse over link */
+.article a:hover {
+  color: hotpink;
+}
+
+/* selected link */
+.article a:active {
+  color: blue;
+}
+  
