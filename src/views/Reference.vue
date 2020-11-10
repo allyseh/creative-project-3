@@ -1,12 +1,12 @@
 <template>
   <div class="ref">
+    <h1>Recombination Types</h1>
     <div class="recombination">
-      <h1>Recombination Types</h1>
       <img src="../../imgs/coupling.png" width="50%">
       <img src="../../imgs/repulsion.png" width="50%">
     </div>
+    <h1>Formulas</h1>
     <div class="formulas">
-      <h1>Formulas</h1>
       <img src="../../imgs/corrections.png">
       <p class="formula"> Recombination Frequency (RF) = total number recombinants / total number gametes </p>
       <p class="formula"> # non-recombinants always less >= # recombinants </p>
@@ -16,8 +16,8 @@
       <p class="formula"> Coefficient of Coincidence (C) = observed DCOs / expected DCOs </p>
       <p class="formula">	Interference (I) = 1 - C </p>
     </div>
+    <h1>Ratios</h1>
     <div class="ratios">
-      <h1>Ratios</h1>
       <p class="ratio">	Reciprocal Translocation => 2 unbalanced : 1 balanced w/ translocation : 1 balanced w/o translocation </p>
       <p class="ratio"> Robertsonian Translocation => 4 unbalanced : 1 balanced w/ translocation : 1 balanced w/o translocation </p>
       <p class="ratio"> Trisomic Inheritance => 1 (AA) : 2 (Aa) : 2 (A) : 1 (a) </p>
@@ -26,3 +26,13 @@
   </div>
 </template>
 
+<style>
+.recombination, .formulas, .rations {
+  margin-left: 20px;
+  margin-bottom: 30px;
+}
+
+p {
+  font-size: 24px;
+}
+</style>
