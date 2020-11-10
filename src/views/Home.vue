@@ -53,4 +53,5 @@ export default {
 .article a:active {
   color: blue;
 }
+</stlye>
   
