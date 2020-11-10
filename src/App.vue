@@ -28,13 +28,13 @@ body {
 .header {
   display: flex;
   justify-content: space-between;
-  background: #571845;
+  background: #40F166;
   padding: 10px 100px;
   color: white;
 }
 
 #nav {
-  padding: 30px;
+  padding: 10px;
 }
 
 #nav a {
@@ -43,7 +43,7 @@ body {
 }
 
 #nav a.router-link-exact-active {
-  color: #FFC300;
+  color: #1499B1;
 }
 
 .content {
