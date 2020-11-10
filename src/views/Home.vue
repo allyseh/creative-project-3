@@ -1,18 +1,30 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png" />
-    <HelloWorld msg="Welcome to Your Vue.js App" />
+    <h1>Vocabulary Review for Midterm 2</h1>
+    <div v-for="article in links" v-bind:key="article.id">
+      <hr>
+      <div class="articles">
+        <div class="article">
+          <a href={{article.link}}>{{article.title}}</a>
+        </div>
+      </div>
+    </div>
   </div>
 </template>
 
 <script>
-// @ is an alias to /src
-import HelloWorld from "@/components/HelloWorld.vue";
-
 export default {
   name: "Home",
-  components: {
-    HelloWorld
-  }
+  data() {
+    return {
+      title: '',
+      link: '',
+    }
+  },
+  computed: {
+    links() {
+      return this.$root.$data.getLinks();
+    },
+  },
 };
 </script>
