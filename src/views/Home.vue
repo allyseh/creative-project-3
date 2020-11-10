@@ -31,7 +31,7 @@ export default {
 
 <style>
 .articles {
-  margin-right: 20px;
+  margin-left: 20px;
 }
 
 /* unvisited link */
