@@ -74,11 +74,15 @@ textarea {
 }
 
 button {
-  margin: 20px 20px;
+  margin: 20px 10px;
   font-size: .9em;
 }
 
 h2 {
-  margin-top: 30px;
+  margin-top: 50px;
+}
+
+h3 {
+  margin-top: 10px;
 }
 </style>
