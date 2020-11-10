@@ -1,1 +1,26 @@
+<template>
+  <div class="ref">
+    <div class="recombination">
+      <h1>Recombination Types</h1>
+      <img src="/imgs/coupling.png">
+      <img src="/imgs/repulsion.PNG">
+    </div>
+    <div class="formulas>
+      <h1>Formulas</h1>
+      <img src="/imgs/recombination-corrections.png">
+      <p class="formula"> Recombination Frequency (RF) = total number recombinants / total number gametes </p>
+      <p class="formula"> # non-recombinants always less >= # recombinants </p>
+      <p class="formula">	1 cM = 1% recombination frequency </p>
+      <p class="formula"> RF flanking genes = RF1 + RF2 </p>
+      <p class="formula">	Expected # DCOs = RF1 x RF2 x tot. # individuals </p>
+      <p class="formula"> Coefficient of Coincidence (C) = observed DCOs / expected DCOs </p>
+      <p class="formula">	Interference (I) = 1 - C </p>
+    </div>
+    <div class="ratios">
+      <p class="ratio">	Reciprocal Translocation => 2 unbalanced : 1 balanced w/ translocation : 1 balanced w/o translocation </p>
+      <p class="ratio"> Robertsonian Translocation => 4 unbalanced : 1 balanced w/ translocation : 1 balanced w/o translocation </p>
+      <p class="ratio"> Trisomic Inheritance => 1 (AA) : 2 (Aa) : 2 (A) : 1 (a) </p>
+      <p class="ratio"> Autopolyploidy Inheritance => 1 (AA) : 4 (Aa) : 1 (aa) </p>
+  </div>
+</template>
 
