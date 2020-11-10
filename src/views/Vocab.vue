@@ -7,7 +7,7 @@
       <div class="term">
         <p>{{reviewPair.term}}</p>
         <p v-if="reviewPair.showdef"><i>-- {{reviewPair.def}}</i></p>
-        <button v-on:click="showHide(reviewPair)" ref="btnToggle">Show Definition</button>
+        <button v-on:click="showHide(reviewPair)">{{showdef? 'Hide Definition' : 'Show Definition'}}</button>
       </div>
     </div>
   </div>
@@ -39,7 +39,6 @@ export default {
   methods: {
     showHide(reviewPair) {
       reviewPair.showdef = !reviewPair.showdef;
-      reviewPair.$refs.btnToggle.innerText = reviewPair.showdef?'Hide Definition':'Show Definition';
     },
     addTerm() {
       this.$root.$data.addTerm(this.term, this.def);
