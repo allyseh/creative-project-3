@@ -28,13 +28,15 @@ body {
 .header {
   display: flex;
   justify-content: space-between;
-  background: #40F166;
+  background: #1DC537;
   padding: 10px 100px;
   color: white;
 }
 
 #nav {
-  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: space-between;
 }
 
 #nav a {
