@@ -24,12 +24,12 @@ let data = {
 { id: 16, term: 'Pericentric Inversion', def: 'Does include the centromere; leads to deletions/ duplications', showdef: false },
 { id: 17, term: 'Inversion Loop', def: 'Forms during meiosis I in inversion heterozygotes to allow synapsis between homologous portions of the paired chromosomes', showdef: false },
 ],
-  links: [ { title: 'Curing Down Syndrome', link: 'https://www.labroots.com/trending/genetics-and-genomics/16411/cure-down-s-syndrome-gene-therapy' },
-{ title: 'Controversy of Law Enforcement and Genealogical DNA Databases', link:  'https://www.nature.com/articles/d41586-020-02545-5?utm_source=Nature+Briefing&utm_campaign=ae24bfd69a-briefing-dy-20200909&utm_medium=email&utm_term=0_c9dfd39373-ae24bfd69a-43357149' },
-{ title: 'Catching the Golden State Killer', link: 'https://www.washingtonpost.com/local/public-safety/to-find-alleged-golden-state-killer-investigators-first-found-his-great-great-great-grandparents/2018/04/30/3c865fe7-dfcc-4a0e-b6b2-0bec548d501f_story.html' },
-{ title: 'Gospel Topic Essay Book of Mormon and DNA Studies', link: 'https://www.churchofjesuschrist.org/study/manual/gospel-topics-essays/book-of-mormon-and-dna-studies?lang=eng' },
-{ title: 'Understanding Cystic Fibrosis Mutations', link: 'https://www.cff.org/What-is-CF/Genetics/Types-of-CFTR-Mutations/' },
-{ title: 'PKU Patterns of Inheritance', link: 'https://www.cedars-sinai.org/health-library/diseases-and-conditions---pediatrics/p/phenylketonuria-pku-in-children.html#:~:text=This%20can%20cause%20low%20birth,that%20can%20cause%20brain%20damage' } 
+  links: [ {id: 1, title: 'Curing Down Syndrome', link: 'https://www.labroots.com/trending/genetics-and-genomics/16411/cure-down-s-syndrome-gene-therapy' },
+{ id: 2, title: 'Controversy of Law Enforcement and Genealogical DNA Databases', link:  'https://www.nature.com/articles/d41586-020-02545-5?utm_source=Nature+Briefing&utm_campaign=ae24bfd69a-briefing-dy-20200909&utm_medium=email&utm_term=0_c9dfd39373-ae24bfd69a-43357149' },
+{ id: 3, title: 'Catching the Golden State Killer', link: 'https://www.washingtonpost.com/local/public-safety/to-find-alleged-golden-state-killer-investigators-first-found-his-great-great-great-grandparents/2018/04/30/3c865fe7-dfcc-4a0e-b6b2-0bec548d501f_story.html' },
+{ id: 4, title: 'Gospel Topic Essay Book of Mormon and DNA Studies', link: 'https://www.churchofjesuschrist.org/study/manual/gospel-topics-essays/book-of-mormon-and-dna-studies?lang=eng' },
+{ id: 5, title: 'Understanding Cystic Fibrosis Mutations', link: 'https://www.cff.org/What-is-CF/Genetics/Types-of-CFTR-Mutations/' },
+{ id: 6, title: 'PKU Patterns of Inheritance', link: 'https://www.cedars-sinai.org/health-library/diseases-and-conditions---pediatrics/p/phenylketonuria-pku-in-children.html#:~:text=This%20can%20cause%20low%20birth,that%20can%20cause%20brain%20damage' } 
   ],
   getVocab() {
     return this.vocab;
