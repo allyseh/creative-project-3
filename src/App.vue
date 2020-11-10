@@ -11,8 +11,8 @@
   <div class="content">
     <router-view />
   </div>
+  <hr>
   <div class="footer">
-    <hr>
     <a href="https://github.com/allyseh/creative-project-3"> Github Repository </a>
   </div>
 </div>
@@ -60,8 +60,9 @@ body {
 }
 
 .footer {
-  align-text: center;
-  margin: 10px 20px;
+  display: flex;
+  justify-content: center;
+  margin: 30px 20px;
 }
 </style>
 
