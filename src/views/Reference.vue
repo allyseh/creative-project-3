@@ -5,7 +5,7 @@
       <img src="/imgs/coupling.png">
       <img src="/imgs/repulsion.PNG">
     </div>
-    <div class="formulas>
+    <div class="formulas">
       <h1>Formulas</h1>
       <img src="/imgs/recombination-corrections.png">
       <p class="formula"> Recombination Frequency (RF) = total number recombinants / total number gametes </p>
