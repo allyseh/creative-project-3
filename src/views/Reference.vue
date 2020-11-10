@@ -38,7 +38,7 @@ p {
 
 .left {
   font-weight: bold;
-  margin-right: 5px;
+  margin-right: 8px;
 }
 
 .right {
