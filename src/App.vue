@@ -37,12 +37,14 @@ body {
   display: flex;
   flex-direction: row;
   align-items: space-between;
+  justify-content: center;
 }
 
 #nav a {
   font-weight: bold;
   font-size: 16px;
   color: #fff;
+  margin-right: 10px;
 }
 
 #nav a.router-link-exact-active {
