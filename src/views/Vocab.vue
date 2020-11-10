@@ -1,7 +1,7 @@
 <template>
 <div>
   <h1>Vocabulary Review for Midterm 2</h1>
-  <div v-for="reviewPair in vocab" v-bind:key="review.id">
+  <div v-for="reviewPair in vocab" v-bind:key="reviewPair.id">
     <hr>
     <div class="review">
       <div class="term">
