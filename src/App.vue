@@ -1,20 +1,36 @@
 <template>
-  <div id="app">
+<div id="app">
+  <div class="header">
+    <h1>Ticket System</h1>
     <div id="nav">
       <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
+      <router-link to="/vocab">Terms and Definitions</router-link>
+      <router-link to="/references">Formulas and Ratios</router-link>
     </div>
+  </div>
+  <div class="content">
     <router-view />
   </div>
+</div>
 </template>
 
 <style>
+body {
+  margin: 0px;
+}
+
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+  font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  background: #571845;
+  padding: 10px 100px;
+  color: white;
 }
 
 #nav {
@@ -23,10 +39,15 @@
 
 #nav a {
   font-weight: bold;
-  color: #2c3e50;
+  color: #fff;
 }
 
 #nav a.router-link-exact-active {
-  color: #42b983;
+  color: #FFC300;
+}
+
+.content {
+  padding: 10px 100px;
 }
 </style>
+
