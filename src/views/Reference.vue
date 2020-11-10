@@ -16,8 +16,8 @@
       <p class="formula"> Coefficient of Coincidence (C) = observed DCOs / expected DCOs </p>
       <p class="formula">	Interference (I) = 1 - C </p>
     </div>
-    <h1>Ratios</h1>
     <div class="ratios">
+    <h1>Ratios</h1>
       <p class="ratio">	Reciprocal Translocation => 2 unbalanced : 1 balanced w/ translocation : 1 balanced w/o translocation </p>
       <p class="ratio"> Robertsonian Translocation => 4 unbalanced : 1 balanced w/ translocation : 1 balanced w/o translocation </p>
       <p class="ratio"> Trisomic Inheritance => 1 (AA) : 2 (Aa) : 2 (A) : 1 (a) </p>
@@ -29,7 +29,7 @@
 <style>
 .recombination, .formulas, .rations {
   margin-left: 20px;
-  margin-bottom: 30px;
+  margin-bottom: 50px;
 }
 
 p {
