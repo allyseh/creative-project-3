@@ -3,11 +3,11 @@
     <div class="recombination">
       <h1>Recombination Types</h1>
       <img src="../../imgs/coupling.png" height="50%">
-      <img src="../../imgs/repulsion.PNG">
+      <img src="../../imgs/repulsion.png">
     </div>
     <div class="formulas">
       <h1>Formulas</h1>
-      <img src="../../imgs/recombination-corrections.PNG">
+      <img src="../../imgs/corrections.png">
       <p class="formula"> Recombination Frequency (RF) = total number recombinants / total number gametes </p>
       <p class="formula"> # non-recombinants always less >= # recombinants </p>
       <p class="formula">	1 cM = 1% recombination frequency </p>
