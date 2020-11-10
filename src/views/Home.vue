@@ -5,7 +5,7 @@
       <hr>
       <div class="articles">
         <div class="article">
-          <a href={{article.link}}>{{article.title}}</a>
+          <a v-bind:href={{article.link}}>{{article.title}}</a>
         </div>
       </div>
     </div>
