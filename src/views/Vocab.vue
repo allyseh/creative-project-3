@@ -12,7 +12,7 @@
     </div>
   </div>
   <h3>Add a new vocabulary term</h3>
-  <form @submit.prevent="addVocab">
+  <form @submit.prevent="addTerm">
     <input v-model="term" placeholder="Vocab term">
     <p></p>
     <textarea v-model="def" ploceholder="definition"></textarea>
