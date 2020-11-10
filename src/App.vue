@@ -1,11 +1,11 @@
 <template>
 <div id="app">
   <div class="header">
-    <h1>Ticket System</h1>
+    <h1>Genetics Midterm 2 Study Site</h1>
     <div id="nav">
       <router-link to="/">Home</router-link> |
       <router-link to="/vocab">Terms and Definitions</router-link>
-      <router-link to="/references">Formulas and Ratios</router-link>
+      <router-link to="/reference">Formulas and Ratios</router-link>
     </div>
   </div>
   <div class="content">
