@@ -11,6 +11,10 @@
   <div class="content">
     <router-view />
   </div>
+  <div class="footer">
+    <hr>
+    <a href="https://github.com/allyseh/creative-project-3"> Github Repository </a>
+  </div>
 </div>
 </template>
 
@@ -53,6 +57,11 @@ body {
 
 .content {
   padding: 10px 100px;
+}
+
+.footer {
+  align-text: center;
+  margin: 10px 20px;
 }
 </style>
 
