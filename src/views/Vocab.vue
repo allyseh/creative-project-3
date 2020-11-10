@@ -11,7 +11,8 @@
       </div>
     </div>
   </div>
-  <h3>Add a new vocabulary term</h3>
+  <hr>
+  <h2>Add a new vocabulary term</h2>
   <form @submit.prevent="addTerm">
     <input v-model="term" placeholder="Vocab term">
     <p></p>
@@ -73,7 +74,11 @@ textarea {
 }
 
 button {
-  margin-top: 20px;
+  margin: 20px 20px;
   font-size: .9em;
+}
+
+h2 {
+  margin-top: 30px;
 }
 </style>
