@@ -5,7 +5,7 @@
     <div class="review">
       <hr>
       <div class="term">
-        <h4>{{reviewPair.term}}</h4>
+        <h3>{{reviewPair.term}}</h3>
         <p v-if="reviewPair.showdef"><i>-- {{reviewPair.def}}</i></p>
         <button v-on:click="showHide(reviewPair)">{{reviewPair.showdef? 'Hide Definition' : 'Show Definition'}}</button>
       </div>
@@ -74,6 +74,6 @@ textarea {
 
 button {
   margin-top: 20px;
-  font-size: .8em;
+  font-size: .9em;
 }
 </style>
