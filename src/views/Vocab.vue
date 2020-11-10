@@ -36,9 +36,9 @@ export default {
       return this.$root.$data.getVocab();
     },
     buttonTxt() {
-      if (this.showdef)
-        return 'Hide';
-      return 'Show';
+      if (this.reviewPair.showdef)
+        return 'Hide Definition';
+      return 'Show Definition';
     },
   },
   methods: {
