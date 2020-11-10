@@ -7,7 +7,7 @@
       <div class="term">
         <p>{{reviewPair.term}}</p>
         <p v-if="reviewPair.showdef"><i>-- {{reviewPair.def}}</i></p>
-        <button v-on:click="showHide(reviewPair)">{{showdef? 'Hide Definition' : 'Show Definition'}}</button>
+        <button v-on:click="showHide(reviewPair)">{{reviewPair.showdef? 'Hide Definition' : 'Show Definition'}}</button>
       </div>
     </div>
   </div>
