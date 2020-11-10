@@ -7,7 +7,7 @@
     </div>
     <div class="formulas">
       <h1>Formulas</h1>
-      <img src="../../imgs/recombination-corrections.png">
+      <img src="../../imgs/recombination-corrections.PNG">
       <p class="formula"> Recombination Frequency (RF) = total number recombinants / total number gametes </p>
       <p class="formula"> # non-recombinants always less >= # recombinants </p>
       <p class="formula">	1 cM = 1% recombination frequency </p>
