@@ -2,10 +2,10 @@
 <div>
   <h1>Vocabulary Review for Midterm 2</h1>
   <div v-for="reviewPair in vocab" v-bind:key="reviewPair.id">
-    <hr>
     <div class="review">
+      <hr>
       <div class="term">
-        <p>{{reviewPair.term}}</p>
+        <h4>{{reviewPair.term}}</h4>
         <p v-if="reviewPair.showdef"><i>-- {{reviewPair.def}}</i></p>
         <button v-on:click="showHide(reviewPair)">{{reviewPair.showdef? 'Hide Definition' : 'Show Definition'}}</button>
       </div>
@@ -50,6 +50,15 @@ export default {
 </script>
 
 <style scoped>
+.review {
+  margin-left: 20px;
+  margin-right: 50px;
+}
+
+.term p {
+  font-size: 16px;
+}
+
 input {
   font-size: 1.2em;
   height: 30px;
@@ -65,6 +74,6 @@ textarea {
 
 button {
   margin-top: 20px;
-  font-size: 1.2em;
+  font-size: .8em;
 }
 </style>
