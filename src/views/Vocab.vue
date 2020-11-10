@@ -17,7 +17,7 @@
     <p></p>
     <textarea v-model="def" ploceholder="definition"></textarea>
     <br />
-    <button type="submit">Submit</button>
+    <button type="submit">Add term</button>
   </form>
 </div>
 </template>
@@ -32,8 +32,8 @@ export default {
     }
   },
   computed: {
-    tickets() {
-      return this.$root.$data.getTickets();
+    vocab() {
+      return this.$root.$data.getVocab();
     },
     buttonTxt() {
       if (this.showdef)
