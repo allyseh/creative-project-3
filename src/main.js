@@ -40,5 +40,6 @@ let data = {
 
 new Vue({
   router,
+  data: data,
   render: h => h(App)
-}).$mount("#app");
+}).$mount('#app')
