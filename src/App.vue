@@ -29,18 +29,19 @@ body {
   display: flex;
   justify-content: space-between;
   background: #1DC537;
-  padding: 10px 100px;
+  padding: 10px 50px;
   color: white;
 }
 
 #nav {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: space-between;
 }
 
 #nav a {
   font-weight: bold;
+  font-size: 16px;
   color: #fff;
 }
 
