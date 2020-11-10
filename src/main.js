@@ -6,7 +6,7 @@ Vue.config.productionTip = false;
 
 let data = {
   currentID: 18,
-  vocab: [ { id: 1, term: 'Transversion Mutation', def: 'Mutation that do alters the ring structure of the base (changes between purine and pyrimidine)', showdef: false },
+  vocab: [ { id: 1, term: 'Transversion Mutation', def: 'Mutation that alters the ring structure of the base (changes between purine and pyrimidine)', showdef: false },
 { id: 2, term: 'Transition Mutation', def: 'Mutation that does not alter the ring structure of the base', showdef: false },
 { id: 3, term: 'Ploidy (x)', def: 'Describes the number of genomes in a nucleus', showdef: false },
 { id: 4, term: 'Polyploidy', def: 'The case where there are more than three genomes in a nucleus', showdef: false },
