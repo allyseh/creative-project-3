@@ -2,9 +2,9 @@
   <div class="home">
     <h1>Related Article Links</h1>
     <div v-for="article in links" v-bind:key="article.id">
-      <hr>
       <div class="articles">
-        <div class="article">
+        <div class="article"> 
+          <hr>
           <a v-bind:href=article.link>{{article.title}}</a>
         </div>
       </div>
@@ -47,14 +47,14 @@ a:visited {
 }
 
 a:hover {
-  color: red;
+  color: #1DC537;
   background-color: transparent;
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 a:active {
-  color: yellow;
+  color: #65F521;
   background-color: transparent;
-  text-decoration: underline;
+  text-decoration: none;
 }
 </style>
