@@ -42,7 +42,7 @@ export default {
       reviewPair.$refs.btnToggle.innerText = reviewPair.showdef?'Hide Definition':'Show Definition';
     },
     addTerm() {
-      this.$root.$data.addVocab(this.term, this.def);
+      this.$root.$data.addTerm(this.term, this.def);
       this.term = "";
       this.def = "";
     },
