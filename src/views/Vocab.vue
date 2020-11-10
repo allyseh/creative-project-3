@@ -74,7 +74,7 @@ textarea {
 }
 
 button {
-  margin: 20px 10px;
+  margin: 20px 5px;
   font-size: .9em;
 }
 
@@ -83,6 +83,6 @@ h2 {
 }
 
 h3 {
-  margin-top: 10px;
+  margin-top: 20px;
 }
 </style>
