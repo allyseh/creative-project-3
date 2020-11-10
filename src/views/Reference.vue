@@ -2,7 +2,7 @@
   <div class="ref">
     <div class="recombination">
       <h1>Recombination Types</h1>
-      <img src="/imgs/coupling.png">
+      <img src="../../imgs/coupling.png">
       <img src="/imgs/repulsion.PNG">
     </div>
     <div class="formulas">
