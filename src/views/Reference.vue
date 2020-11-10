@@ -21,6 +21,7 @@
       <p class="ratio"> Robertsonian Translocation => 4 unbalanced : 1 balanced w/ translocation : 1 balanced w/o translocation </p>
       <p class="ratio"> Trisomic Inheritance => 1 (AA) : 2 (Aa) : 2 (A) : 1 (a) </p>
       <p class="ratio"> Autopolyploidy Inheritance => 1 (AA) : 4 (Aa) : 1 (aa) </p>
+    </div>
   </div>
 </template>
 
