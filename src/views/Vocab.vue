@@ -83,6 +83,6 @@ h2 {
 }
 
 hr {
-  margin-bottom: 15px;
+  margin-bottom: 30px;
 }
 </style>
